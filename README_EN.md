@@ -44,7 +44,7 @@ Return only the title and story.
 Ask a compatible agent from the repository. For example, in Codex:
 
 ```text
-Install the write-microfiction Skill from this repository into my agent environment.
+Install https://github.com/muxia0396/write-microfiction-skill into my agent environment.
 ```
 
 Or copy the directory manually. The following paths use Codex as the example:
