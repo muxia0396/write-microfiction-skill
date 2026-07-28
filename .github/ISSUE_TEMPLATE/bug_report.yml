@@ -1,0 +1,51 @@
+name: 问题报告
+description: 报告可复现的 Skill 行为、脚本或文档问题
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。请先移除稿件中的个人信息和无权公开的内容。
+
+  - type: textarea
+    id: prompt
+    attributes:
+      label: 完整提示词
+      description: 提供能够复现问题的最小提示词。
+      placeholder: 使用 $write-microfiction……
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果
+      description: 粘贴必要片段，或描述 Skill/脚本的实际行为。
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果
+      description: 说明期望满足的约束或行为。
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: 环境
+      description: 智能体客户端（如 Codex）、操作系统和 Python 版本（如适用）。
+      placeholder: Codex Desktop / Windows 11 / Python 3.12
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已搜索现有 Issue。
+          required: true
+        - label: 我已移除个人信息、凭据和无权公开的内容。
+          required: true

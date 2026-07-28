@@ -1,0 +1,54 @@
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.local
+
+# Private research sources and OCR intermediates
+write-microfiction/doc/
+**/ocr_output.txt
+**/ocr_cleaned.txt
+
+# Generated evaluation artifacts and development snapshots
+comparison-test/baseline-*.md
+comparison-test/installed-*.md
+comparison-test/blind-*.md
+comparison-test/score-*.md
+comparison-test/v2-[0-9][0-9]-[0-9][0-9].md
+comparison-test/v2-blind-*.md
+comparison-test/v2-score-*.md
+comparison-test/*-map.txt
+comparison-test/skill-v1-snapshot/
+comparison-test/full-output-comparison.md
+comparison-test/v1-v2-full-output-comparison.md
+comparison-test/comparison-report.md
+comparison-test/v2-improvement-report.md
+
+# Local scratch space
+tmp/

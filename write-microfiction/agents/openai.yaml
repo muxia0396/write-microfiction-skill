@@ -1,0 +1,4 @@
+interface:
+  display_name: "微型小说创作"
+  short_description: "将生活素材转化为可构思、创作、诊断与精修的中文微型小说"
+  default_prompt: "使用 $write-microfiction 将一个生活细节发展成含蓄而完整的中文微型小说。"
